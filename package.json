@@ -1,0 +1,11 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "scripts": {
+    "install": "npm run install:frontend && npm run install:backend",
+    "install:frontend": "cd frontend && npm install",
+    "install:backend": "pip install -r backend/requirements.txt",
+    "start:frontend": "cd frontend && npm start",
+    "start:backend": "cd backend && python app.py"
+  }
+}
