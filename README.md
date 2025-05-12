@@ -1,8 +1,15 @@
 Steps To run on your system
 
-Install everything	npm install
+Install everything	using command 
+
+npm install
+
+Then to run FrontEnd and Backend use the following
+
 Start frontend (React)	npm run start:frontend
+
 Start backend (Flask)	npm run start:backend
+
 
 
 
